@@ -13,5 +13,3 @@ function publicBusFare(people) {
     return publicBus;
 
 }
-
-console.log(publicBusFare(10))

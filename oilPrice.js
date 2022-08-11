@@ -8,10 +8,9 @@ function oilPrice(dieselQuantity, petrolQuantity, octaneQuantity){
     const totalOctanePrice = octanePricePerltr * octaneQuantity;
 
     const totalOilPrice = totalDieselPrice + totalOctanePrice + totalPetrolPrice;
-    if( typeof dieselQuantity  !== 'number' &&  petrolQuantity  !== 'number' && octaneQuantity  !== 'number'){
-        console.log("Not a number")
-    }
+    
+ if( typeof dieselQuantity  !== 'number' && typeof  petrolQuantity  !== 'number' && typeof octaneQuantity  !== 'number'){
+        return `Not  A Number`
+    } 
     return totalOilPrice;
 }
-
-oilPrice(23, 21,21)

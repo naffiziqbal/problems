@@ -12,6 +12,3 @@ function isBestFriend( para1, para2){
     }
     return false
 }
-
-
-console.log(isBestFriend(abul, babul))

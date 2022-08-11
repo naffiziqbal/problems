@@ -13,12 +13,8 @@ function isJavaScriptFile(files){
     let file = files;
     file = file.endsWith("js");
     if(file === true){
-        console.log(file) 
         return true
     }else{
-
         return false
     }
 }
-
-isJavaScriptFile("html.ks")
