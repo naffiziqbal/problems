@@ -1,0 +1,42 @@
+Function Names: 
+
+Problem:1  radianToDegree,  //
+parameter : radian
+variable degree
+
+Problem:2  isJavaScriptFile //
+parameter : filename
+
+if js file return true;
+else false;
+
+
+Problem 3: oilPrice //
+parameter: 
+
+
+return totalCost 
+
+
+
+Problem 4: publicBusFare
+ ToDo :- Main Task Retun Public Bus Cost 
+
+ Sub List :- Write a Function take parameter of Quantity of People
+ 2. Count Quantity of People and Check Wheter Bus available or not! If available send them into bus! If not store them as a variable and send them into publicbus then Check Cost per people 
+
+ return publicBusFare;
+
+Problem 5: isBestFriend  //
+parameter : 2 Object
+
+if they're mutual best friend Retun true
+else False
+
+
+
+Special Requirent :
+1. Function Names Should be as given
+2. Can't Use var
+3. Console is Optional
+4. 
